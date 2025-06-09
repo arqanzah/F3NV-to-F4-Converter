@@ -1,5 +1,7 @@
 F3NV to F4 Converter
 
+Video demo here: https://www.youtube.com/@arqanzah
+
 This is a non-commercial fan project for educational and demonstration purposes only. Source code is under the GNU General Public License 3 (GPL3).
 
 This software DOES NOT CONTAIN any BETHESDA or any other 3rd party assets. All assets are generated/converted on user's PC by a user running this software.
