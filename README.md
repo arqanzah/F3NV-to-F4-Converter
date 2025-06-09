@@ -57,6 +57,27 @@ CONV
 |       | - Archive2
 |       | - Elric
 
+
+CONV
+├───FO3
+│   └───Data
+│       ├───lodsettings
+│       └───Meshes
+│       └───Textures
+│       └───Fallout3.esm
+└───FO4
+│   └───Data (converted files will be placed here)
+│   └───lib
+│       ├───esf
+│       ├───Tools
+│       │   └───Archive2
+│       │   └───Elric       
+
+
+
+
+
+
 14. Open windows command line and execute from tool's location:
 
 fo3nv2fo4.exe "Fallout3" "C:\Users\your-user-name\Desktop\CONV\FO3" "C:\Users\your-user-name\Desktop\CONV\FO4"
