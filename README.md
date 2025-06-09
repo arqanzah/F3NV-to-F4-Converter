@@ -43,19 +43,19 @@ CONVERSION INSTRUCTIONS (Relace 3 with NV for New Vegas):
 12. Copy Elric folder from "..\Steam\..\Fallout 4\Tools" to "Desktop\CONV\FO4\Tools"
 
 13. Make sure your CONV\FO3 and CONV\FO4 folders have following structure: 
-CONV\
-| - FO3\
-|   | - Data\
-|       | - lodsettings\
-|       | - Meshes\
-|       | - Textures\
-|       | - Fallout3.esm 
-|
-| - FO4\
-|   | - Data\ (converted files will be placed here)
-|   | - Tools\
-|       | - Archive2\
-|       | - Elric\
+CONV\<br/>
+| - FO3\<br/>
+|   | - Data\<br/>
+|       | - lodsettings\<br/>
+|       | - Meshes\<br/>
+|       | - Textures\<br/>
+|       | - Fallout3.esm <br/>
+|<br/>
+| - FO4\<br/>
+|   | - Data\ (converted files will be placed here)<br/>
+|   | - Tools\<br/>
+|       | - Archive2\<br/>
+|       | - Elric\<br/>
 
 14. Open windows command line and execute from tool's location:
 
