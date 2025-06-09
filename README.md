@@ -43,19 +43,22 @@ CONVERSION INSTRUCTIONS (Relace 3 with NV for New Vegas):
 12. Copy Elric folder from "..\Steam\..\Fallout 4\Tools" to "Desktop\CONV\FO4\Tools"
 
 13. Make sure your CONV\FO3 and CONV\FO4 folders have following structure: 
-CONV\<br/>
-| - FO3\<br/>
-|   | - Data\<br/>
-|       | - lodsettings\<br/>
-|       | - Meshes\<br/>
-|       | - Textures\<br/>
-|       | - Fallout3.esm <br/>
-|<br/>
-| - FO4\<br/>
-|   | - Data\ (converted files will be placed here)<br/>
-|   | - Tools\<br/>
-|       | - Archive2\<br/>
-|       | - Elric\<br/>
+
+```text
+CONV\
+| - FO3\
+|   | - Data\
+|       | - lodsettings\
+|       | - Meshes\
+|       | - Textures\
+|       | - Fallout3.esm 
+|
+| - FO4\
+|   | - Data\ (converted files will be placed here)
+|   | - Tools\
+|       | - Archive2\
+|       | - Elric\
+```
 
 14. Open windows command line and execute from tool's location:
 
@@ -69,7 +72,7 @@ Fallout3 - Main.ba2
 Fallout3 - Textures.ba2
 
 Now you have two options:
-
+```text
 Option A: {
 Move content of "Desktop\CONV\FO4\Data" (3 files above) to "..\Steam\..\Fallout 4\Data" folder and enable Fallout3.esp in the Mod manager you are using.
 }
@@ -77,12 +80,12 @@ Option B: {
 Zip "Data" folder located inside "Desktop\CONV\FO4" and name it Fallout3.zip. Should look like this:
 Fallout3.zip
 | - Data\
-| - Fallout3.esp
-| - Fallout3 - Main.ba2
-| - Fallout3 - Textures.ba2
+    | - Fallout3.esp
+    | - Fallout3 - Main.ba2
+    | - Fallout3 - Textures.ba2
 Move Fallout3.zip wherever you want and install it using Mod manager of your choice.
 }
-
+```
 16. Make sure everything works before generation LOD. Launch Fallout 4, load any save you have, open terminal and run: "coc xxxVault101exterior" ("coc xxxGoodSprings" for New Vegas). 
 
 17. Generating LOD will take a lot of resources of your PC. You may consider skipping this step if your PC is not powerful enough. Please see xLODGen download page for more info.
