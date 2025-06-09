@@ -61,8 +61,9 @@ CONV\
 ```
 
 14. Open windows command line and execute from tool's location:
-
+```text
 fo3nv2fo4.exe "Fallout3" "C:\Users\your-user-name\Desktop\CONV\FO3" "C:\Users\your-user-name\Desktop\CONV\FO4"
+```
 Do not interfere with conversion process. Elric window will pop up during the process, do not press anything, let it finish, it will close automatically.  It might take some time, depending on performance of your PC.
 Also there will be Archive2 complains about skipping some files. Just ignore. 
 
@@ -99,7 +100,7 @@ HOW TO PLAY:
 All Fallout 3/NV editor_names have xxx prefix after conversion. 
 Launch Fallout 4, load any save you have, open terminal and run: "coc xxxVault101exterior" for Fallout 3 and "coc xxxGoodSprings" for New Vegas. 
 
-Important known issues:
+Known issues:
 1. Player unable climb stairs. You have to jump.
 2. Megaton s landscape is shifted down. Use coc xxxMegaton01 to enter Megaton.
 3. Some places inaccessible. Like missing Rivet City bridge. Use tcl command.
