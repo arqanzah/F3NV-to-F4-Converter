@@ -1,0 +1,4 @@
+"C:\Users\User\Desktop\convert\Fallout 4\Tools\Elric\Elrich.exe" "C:\Users\User\Desktop\convert\Fallout 4\Tools\Elric\Settings\PCMeshes.esf" -ElricOptions.ConvertTarget="C:\Users\User\Desktop\convert\Fallout 4\Tools\Meshes\_a" -ElricOptions.OutputDirectory="C:\Users\User\Desktop\convert\Fallout 4\Tools\Meshes\_b" -ElricOptions.UseFilterScript=false
+
+std::string s = " \" \"C:\\Users\\User\\Desktop\\convert\\Fallout 4\\Tools\\Elric\\Elrich.exe\" \"C:\\Users\\User\\Desktop\\convert\\Fallout 4\\Tools\\Elric\\Settings\\PCMeshes.esf\" -ElricOptions.ConvertTarget=\"C:\\Users\\User\\Desktop\\convert\\Fallout 4\\Tools\\Meshes\\_a\" -ElricOptions.OutputDirectory=\"C:\\Users\\User\\Desktop\\convert\\Fallout 4\\Tools\\Meshes\\_b\" -ElricOptions.UseFilterScript=false -ElricOptions.CloseWhenFinished=true\" \"";
+int result = system(s.c_str());
