@@ -43,40 +43,19 @@ CONVERSION INSTRUCTIONS (Relace 3 with NV for New Vegas):
 12. Copy Elric folder from "..\Steam\..\Fallout 4\Tools" to "Desktop\CONV\FO4\Tools"
 
 13. Make sure your CONV\FO3 and CONV\FO4 folders have following structure: 
-CONV
-| - FO3
-|   | - Data
-|       | - lodsettings
-|       | - Meshes
-|       | - Textures
+CONV\
+| - FO3\
+|   | - Data\
+|       | - lodsettings\
+|       | - Meshes\
+|       | - Textures\
 |       | - Fallout3.esm 
 |
-| - FO4
-|   | - Data (converted files will be placed here)
-|   | - Tools
-|       | - Archive2
-|       | - Elric
-
-
-CONV
-├───FO3
-│   └───Data
-│       ├───lodsettings
-│       └───Meshes
-│       └───Textures
-│       └───Fallout3.esm
-└───FO4
-│   └───Data (converted files will be placed here)
-│   └───lib
-│       ├───esf
-│       ├───Tools
-│       │   └───Archive2
-│       │   └───Elric       
-
-
-
-
-
+| - FO4\
+|   | - Data\ (converted files will be placed here)
+|   | - Tools\
+|       | - Archive2\
+|       | - Elric\
 
 14. Open windows command line and execute from tool's location:
 
@@ -97,10 +76,10 @@ Move content of "Desktop\CONV\FO4\Data" (3 files above) to "..\Steam\..\Fallout 
 Option B: {
 Zip "Data" folder located inside "Desktop\CONV\FO4" and name it Fallout3.zip. Should look like this:
 Fallout3.zip
-| - Data
-    | - Fallout3.esp
-    | - Fallout3-Main.ba2
-    | - Fallout3-Textures.ba2
+| - Data\
+| - Fallout3.esp
+| - Fallout3 - Main.ba2
+| - Fallout3 - Textures.ba2
 Move Fallout3.zip wherever you want and install it using Mod manager of your choice.
 }
 
