@@ -24,7 +24,7 @@ REQUIRED SOFTWARE:
 5. xLODGen for lod generation. https://forum.step-project.com/topic/13451-xlodgen-terrain-lod-beta-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal/
 
 
-CONVERSION INSTRUCTIONS (Relace 3 with NV for New Vegas):
+CONVERSION INSTRUCTIONS (Relace "FO3" with "FONV" for New Vegas):
 
 1. Download and Install Creation Kit using Bethesda Launcher.
 2. Download B.A.E.
